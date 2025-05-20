@@ -1,0 +1,2 @@
+# random-quotes-kakgem
+JADI ISINYA QUOTES ACAK DARI BELIAU "KAKGEM" 
