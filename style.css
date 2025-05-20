@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: url("https://media1.tenor.com/m/RU2wsPBrmFEAAAAd/kak-gem-ka-gem.gif");
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quote-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+}
+.prof-img {
+  border-radius: 50%;
+  width: 25%;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.quote-box {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #9dffde;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#quote {
+  font-size: 1.5em;
+  color: #026257;
+  margin-bottom: 10px;
+}
+
+#author {
+  font-style: italic;
+  color: #026257;
+  font-size: 1.2em;
+}
+
+button {
+  background-color: #9dffde;
+  color: #000;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #026257;
+  color: #fff;
+}
+
+.footer {
+  /* melebar persis selebar viewport */
+  width: 100vw;
+  /* pindahkan ke tengah viewport */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* styling yang sudah ada */
+  background-color: rgb(0, 113, 128);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 90%;
+  box-sizing: border-box;
+}
+.footer__text {
+  margin-bottom: 0.5rem;
+}
+.footer__author {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.footer__social a {
+  margin: 0 0.5rem;
+  color: inherit;
+  font-size: 1.4rem;
+  transition: color 0.2s ease;
+}
+.footer__social a:hover {
+  color: #3f51b5;
+}
